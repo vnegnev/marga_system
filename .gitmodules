@@ -1,0 +1,12 @@
+[submodule "CIC"]
+	path = CIC
+	url = https://github.com/catkira/CIC
+[submodule "DDS"]
+	path = DDS
+	url = https://github.com/catkira/DDS
+[submodule "complex_multiplier"]
+	path = complex_multiplier
+	url = https://github.com/catkira/complex_multiplier
+[submodule "marga"]
+	path = marga
+	url = https://github.com/vnegnev/marga

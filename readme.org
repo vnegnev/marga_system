@@ -1,0 +1,15 @@
+#+TITLE: MaRGA (MARcos fpGA) System - MaRGA core + RX/TX chains using open-source cores
+
+* Overview
+
+A high-level core containing MaRGA and several open-source DSP cores, connected together internally to form a two-channel RX and TX system. Can be easily implemented in a Vivado project, and requires only a simple block diagram.
+
+TODO: continue
+
+* Structure
+
+It uses the following HDL submodules:
+- [[https://github.com/vnegnev/marga][MaRGA real-time sequencer]]
+- [[https://github.com/catkira/CIC][CIC core]]
+- [[https://github.com/catkira/complex_multiplier][complex_multiplier core]]
+- [[https://github.com/catkira/DDS][DDS core]]
